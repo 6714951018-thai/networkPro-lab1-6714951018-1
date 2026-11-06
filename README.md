@@ -37,4 +37,4 @@ python client.py
 
 ## แหล่งอ้างอิง
 - Python docs: https://docs.python.org/3/library/socket.html
-- (เพิ่มแหล่งอื่นที่ใช้ศึกษา เช่น เอกสารประกอบการเรียน/เว็บไซต์)
+
