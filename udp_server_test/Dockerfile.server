@@ -1,0 +1,12 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+COPY server.py .
+
+ENV HOST=0.0.0.0 \
+    PORT=6000 \
+    PYTHONUNBUFFERED=1
+
+EXPOSE 6000/udp
+
+CMD ["python", "server.py"]
